@@ -1,11 +1,11 @@
-.container{
+/*.container{
     width: 1200px;
     margin: 0 auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+}*/
 
 .signup-form, .login-form{
-    width: 60%;
+    /*width: 60%;*/
     margin: 10px auto;
     background: dodgerblue;
     color: #fff;
@@ -17,8 +17,27 @@
 input{
     display: block;
     margin-bottom: 20px;
+    color: #333;
 }
 
 .login-form{
-    display: block;
+    display: none;
+}
+
+#log-btn, #sign-btn{
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#log-btn{
+    background: green; 
+}
+
+#sign-btn{
+    background: orange;
 }

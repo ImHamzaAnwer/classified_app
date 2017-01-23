@@ -56,18 +56,6 @@ function login(){
             return;
         }
     });
-    
-    // for(var i=0; i<users.length; i++){
-    //     for(var props in clients){
-    //         if(clients.email == userEmail.value && clients.pass == userPassword.value){
-    //             alert("login successfully");
-    //             break;
-    //             } 
-    //         else{
-    //             alert("no no no");
-    //         }
-    //     }
-    // }
 
     // if(userEmail.value == storedEmail && userPassword.value == storedPassword){
     //     alert("Registered and login successfully");
@@ -77,8 +65,3 @@ function login(){
     // }
 }
 
-
-// Retrieve
-// document.getElementById("result").innerHTML = userObj.clientName;
-
-// alert("You have signed up successfully !");
