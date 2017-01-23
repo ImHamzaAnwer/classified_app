@@ -20,7 +20,7 @@ input{
     color: #333;
 }
 
-.login-form{
+#login-box{
     display: none;
 }
 

@@ -65,3 +65,19 @@ function login(){
     // }
 }
 
+function showSignin(){
+    log_box = document.getElementById('login-box');
+    sign_box = document.getElementById('signin-box');
+
+     log_box.style.display = "none";
+     sign_box.style.display = "block";
+}
+
+
+function showLogin(){
+    log_box = document.getElementById('login-box');
+    sign_box = document.getElementById('signin-box');
+
+     sign_box.style.display = "none";
+     log_box.style.display = "block";
+}
